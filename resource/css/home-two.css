@@ -291,11 +291,15 @@ header {
 }
 
 .videobox-counter-wrapper .counter-section .sub-heading {
-    max-width: 400px !important;
+    max-width: 100%;
     margin-top: 20px !important;
-    font-size: 14px;
-    color: #7c787d;
-    text-align: left !important;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    margin-left: 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .5px;
 }
 
 .videobox-counter-wrapper .video-box {
