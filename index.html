@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Natuspa - Beauty Salon & Spa Template</title>
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/queries.css">
+    <link rel="stylesheet" href="./resource/css/home-two.css">
+    <link rel="stylesheet" href="./resource/css/animation.css">
+    <link rel="stylesheet" href="./resource/css/queries-home-two.css">
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./vendor/fonts/fontawesome-5.0.13/css/all.css">
+    <link rel="stylesheet" href="./vendor/fonts/natuspa-font/css/natuspa-icons.css">
+    <!-- slick -->
+    <link rel="stylesheet" href="./vendor/js/slick/slick.css">
+    <link rel="stylesheet" href="./vendor/js/slick/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <link rel="stylesheet" href="./vendor/js/datetimepicker-master/jquery.datetimepicker.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="./vendor/js/Magnific-Popup-master/magnific-popup.css">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/resource/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resource/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resource/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resource/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resource/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resource/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resource/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="preload">
+
+    <!-- Loading ......... -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="./imgs/loader.svg" alt="Loader" class="loader-img">
+        </div>
+    </div>
+
+    <!-- overlay for focus -->
+    <div id="overlay" style="display: none;"></div>
+
+    <!-- scroll top -->
+    <a class="scroll-top link-text" href="#home">Top</a>
+
+    <!-- page wrapper -->
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header id="home">
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <!-- logo site -->
+                <a class="navbar-brand main-logo" href="index.html" rel="home" title="Natuspa">
+                    <img src="./imgs/logo_white.png" alt="Natuspa Logo" width="193" height="76">
+                </a>
+                <!--  main nav -->
+                <button class="navbar-toggler mobile-nav-icon" type="button" data-toggle="collapse"
+                    data-target="#main-nav-mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse main-nav">
+                    <ul class="navbar-nav menu" id="mainNav">
+                        <li class="nav-item menu-item menu-item-current menu-item-has-child">
+                            <a class="nav-link" href="index.html">Home</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="page-pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="contact-us.html">Contact</a>
+                        </li>
+                        <li class="nav-item menu-item menu-item-has-child">
+                            <a class="nav-link" href="#">News</a>
+                            <ul class="sub-menu">
+                                <li><a href="page-blog.html">News National</a></li>
+                                <li><a href="page-blog-details.html">Blog Natuspa</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav icon -->
+                <div class="main-nav-icon">
+                    <!-- search -->
+                    <a class="search-button">
+                        <span class="search-icon nav-icon"><i class="fal fa-search"></i></span>
+                    </a>
+                    <div class="search-form">
+                        <span class="close-search"><i class="fal fa-times-circle"></i></span>
+                        <form class="search-input" action="#">
+                            <input type="text" name="search" id="searchForm" placeholder="Type and hit enter..."
+                                autocomplete="off">
+                        </form>
+                    </div>
+
+                    <!-- bars icon -->
+                    <a class="slide-icon">
+                        <span class="bars-icon nav-icon"><i class="fal fa-bars"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <!-- menu popup -->
+            <div class="menu-popup">
+                <span class="close-icon"><i class="fal fa-times"></i></span>
+                <div class="content-wrap">
+                    <h1 class="title">Natuspa</h1>
+                    <p class="text">
+                        Đối với chúng tôi, đó là một cuộc hành trình, không phải là một cuộc chạy đua để xây dựng một di sản và 
+			danh tiếng của những người giỏi nhất,
+			Natuspa mang đến những gì tốt nhất và tạo ra một nền văn hóa mà chúng tôi tự hào mỗi ngày.
+                    </p>
+                    <span class="menu-popup-img"><img src="./imgs/summer-sale.jpg" alt="Sale"></span>
+                    <div class="contact-popup-info">
+                        <h2 class="title">Contact Us</h2>
+                        <div class="address">
+                            <span>145 Lạch Tray, Hải Phòng</span>
+                        </div>
+                        <div class="email">
+                            <span>Natuspa@email-themes.com</span>
+                        </div>
+                        <div class="phone">
+                            <span>+84 933 1235 113</span>
+                        </div>
+                        <div class="social-media-icons">
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="https://fb.com/Tuannguyentn2504"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-twitter"></i></i></a>
+                            </div>
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slides -->
+            <div class="slide-wrap">
+                <div class="slide-inner">
+                    <div class="slide-item active">
+                        <img src="./imgs/slide_1.jpg" alt="slide one">
+                        <div class="slide-text">
+                            <h3>Chào Mừng Đến Với Natuspa !</h3>
+                            <h1>Trải Nghiệm Tốt Nhất Dành Cho Bạn</h1>
+                            <p>Bước vào một bầu không khí thư giãn thoải mái. Natuspa là nơi ẩn náu yên bình 
+				khỏi lối sống phức tạp và căng thẳng dành cho bạn.
+				Để lại cảm giác sảng khoái, xinh đẹp và thư thái hơn bao giờ hết.
+                            </p>
+                            <button class="btn book-now-btn">Đặt Lịch Ngay</button>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <img src="./imgs/slide_2.jpg" alt="slide two">
+                        <div class="slide-text" style="text-align: left;">
+                            <h3>Chào Mừng Đến Với Natuspa !</h3>
+                            <h1>Trải Nghiệm Tốt Nhất Dành Cho Bạn</h1>
+                            <p>Bạn xứng đáng được nghỉ ngơi. khám phá lại ý nghĩa của việc thoải mái, cảm thấy tốt hơn và 
+			       tận hưởng những lợi ích lâu dài của trải nghiệm spavia.
+                            </p>
+                            <button class="btn book-now-btn">Đặt Lịch Ngay</button>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <img src="./imgs/slide_3.jpg" alt="slide three">
+                        <div class="slide-text" style="text-align: right;">
+                            <h3>Chào Mừng Đến Với Natuspa !</h3>
+                            <h1>Trải Nghiệm Tốt Nhất Dành Cho Bạn</h1>
+                            <p>Tạm gác lại những công việc bộn bề hàng ngày và dành thời gian cho bản thân, hãy để nhóm spavia nạp năng lượng, 
+			       phục hồi cơ thể và tâm trí của bạn.
+                            </p>
+                            <button class="btn book-now-btn">Đặt Lịch Ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="slide-control" id="prev-slide"></a>
+                <a href="#" class="slide-control" id="next-slide"></a>
+                <ol class="slide-dot">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+        </header>
+
+        <!-- about-section -->
+        <div class="about-section container-fluid" id="about">
+            <div class="row">
+                <div class="video-box col-lg-6 col-md-12">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="about-main-text col-lg-6 col-md-12">
+                    <h2 class="section-title">Câu chuyện của chúng tôi !</h2>
+                    <div class="sub-heading">
+                        <em>Natuspa đã mở cửa với sứ mệnh và tầm nhìn tạo ra sự khác biệt hữu ích trong thế giới.</em>
+                    </div>
+                    <p class="text-box">Ngày 25 tháng 9 năm 2005, Natuspa đã mở cửa với sứ mệnh và tầm nhìn là tạo ra sự khác biệt hữu ích trong thế giới, 
+			mỗi người một việc và mang đến một điều đặc biệt mà khách của chúng tôi không thể thiếu. Đối với chúng tôi, 
+			đó là một cuộc hành trình, không phải là một cuộc chạy đua để xây dựng một di sản và danh tiếng của những người giỏi nhất,
+			mang đến những gì tốt nhất và tạo ra một nền văn hóa Natuspa mà chúng tôi tự hào mỗi ngày. 
+			Chúng tôi khiêm tốn và biết ơn vì có cơ hội mở cửa mỗi ngày, tạo ra những trải nghiệm đặc biệt và đền đáp cho cộng đồng của chúng tôi.
+                    </p>
+                    <a class="link-text text-linear-effect">Đọc thêm</a>
+                </div>
+            </div>
+            <iframe src="https://www.youtube.com/embed/zHCyHodIlCY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                class="video-embed">
+            </iframe>
+            <span class="close-btn"><i class="fal fa-times"></i></span>
+            <div class="spacer-clearfix" style="height: 0px;"></div>
+        </div>
+
+        <!-- service section -->
+        <div class="services-section container" id="services">
+            <div class="row">
+                <div class="spacer-clearfix" style="height: 0px;"></div>
+                <div class="services-info col-md-12">
+                    <h2 class="section-title">Dịch vụ tốt nhất của chúng tôi</h2>
+                    <p class="services-main-text">Natuspa là một thẩm mỹ viện đầy đủ dịch vụ với các chuyên gia về dịch vụ cơ thể, làm móng
+            chăm sóc, xoa bóp, tẩy lông, chăm sóc da và các phương pháp điều trị khác.
+                    </p>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-facial-treatment"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Derm Young Facial</div>
+                    <div class="description">Chăm sóc khuôn mặt để phục hồi và tái tạo làn da phổ biến cho cả nam giới và phụ nữ 
+            bao gồm mất nước, nếp nhăn và mất săn chắc.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-depilation"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Natural Waxing</div>
+                    <div class="description">Điều này làm giảm đáng kể sự xuất hiện của tóc gãy, các sợi lông mọc gây khó chịu và 
+            cũng cho phép chúng tôi loại bỏ các sợi lông nhỏ hơn và khó lấy hơn.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-massage-1"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Signature Massage</div>
+                    <div class="description">Mời Natuspa đến văn phòng hoặc địa điểm kinh doanh của bạn để chúng tôi giúp bạn thư giãn!
+             tuyệt vời cho sự công nhận của nhóm, một phần thưởng cho việc đạt được các mục tiêu.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-herbal"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Body Treatments</div>
+                    <div class="description">Phương pháp điều trị này bắt đầu bằng cách tẩy tế bào chết bằng đường hoa oải hương nhẹ nhàng, 
+            sau đó là tắm Vichy để tẩy tế bào chết và loại bỏ vi khuẩn khỏi lỗ chân lông của chúng ta.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-polish"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Natural Nails Care</div>
+                    <div class="description">Natuspa có các chuyên gia được đào tạo chuyên sâu về chăm sóc móng tay và móng chân.
+             Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-stone"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Hot Stone Massage</div>
+                    <div class="description">Massage bằng đá nóng là một liệu pháp massage trị liệu,
+             trong đó những viên đá đã được làm ấm sẽ được đặt lên một số vùng nhất định trên cơ thể.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                </div>
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+            </div>
+        </div>
+
+        <!-- testimonial section -->
+        <div class="testimonial-section container" id="testimonial">
+            <div class="section-title">Phản hồi của khách hàng</div>
+            <div class="spacer-clearfix" style="height: 35px;"></div>
+            <blockquote>
+                <div class="slick-slide-cite">
+                    <p>
+                        Tôi đã đến đây gần 10 năm và các dịch vụ trải nghiệm khá tốt. Các nhân viên chuyên nghiệp và có kỹ năng lành nghề.
+			Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây gần 10 năm và các dịch vụ trải nghiệm khá tốt. Các nhân viên chuyên nghiệp và có kỹ năng lành nghề.
+			Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây gần 10 năm và các dịch vụ trải nghiệm khá tốt. Các nhân viên chuyên nghiệp và có kỹ năng lành nghề.
+			Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây gần 10 năm và các dịch vụ trải nghiệm khá tốt. Các nhân viên chuyên nghiệp và có kỹ năng lành nghề.
+			Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây gần 10 năm và các dịch vụ trải nghiệm khá tốt. Các nhân viên chuyên nghiệp và có kỹ năng lành nghề.
+			Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                </div>
+                <div class="slick-slide-figure-img">
+                    <div><img src="./imgs/testimonials/1.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/2.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/3.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/1.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/5.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/4.png" alt="customer"></div>
+                </div>
+                <div class="slick-slide-figure-info">
+                    <div class="infomation">
+                        <div class="name">Hoa Mai</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Thu Hà</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Bông Cúc</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Ngọc Lan</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Vy Oanh</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Nhã Phương</div>
+                        <div class="position">Customer</div>
+                    </div>
+                </div>
+            </blockquote>
+            <div class="spacer-clearfix" style="height: 0px;"></div>
+        </div>
+
+        <!-- pricing plan -->
+        <div class="pricing-plan container">
+            <div class="spacer-clearfix" style="height: 50px;"></div>
+            <div class="row">
+                <div class="heading col-12">
+                    <div class="main-heading section-title">Giá Cả</div>
+                    <div class="sub-heading">
+                        <p>Chào mừng đến với Natuspa Day Med Spa! Trung tâm spa sang trọng chăm sóc sức khỏe chuyên dụng 
+			   để tạo cảm hứng cho Cuộc sống Cân bằng.
+                        </p>
+                    </div>
+                </div>
+                <div class="spacer-clearfix" style="height: -20px;"></div>
+                <ul class="pricing-menu col-12">
+                    <li class="pricing-item all facial massage">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Swedish Massage</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">93.000 VND</span>
+                    </li>
+                    <li class="pricing-item all massage treatments">
+                        <span class=" logo"><i class="natuspa-icon-stone"></i></span>
+                        <div class="heading">
+                            <h4>Massage Stone</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">99.000 VND</span>
+                    </li>
+                    <li class="pricing-item all nail treatments waxing">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nail Care</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">25.000 VND</span>
+                    </li>
+                    <li class="pricing-item all treatments massage">
+                        <span class="logo"><i class="natuspa-icon-massage-1"></i></span>
+                        <div class="heading">
+                            <h4>Body Treatments</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">105.000 VND</span>
+                    </li>
+                    <li class="pricing-item all facial waxing nail">
+                        <span class="logo"><i class="natuspa-icon-cramp"></i></span>
+                        <div class="heading">
+                            <h4>Vein Sclerotherapy</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">73.000 VND</span>
+                    </li>
+                    <li class="pricing-item all facial massage">
+                        <span class="logo"><i class="natuspa-icon-facial-treatment"></i></span>
+                        <div class="heading">
+                            <h4>Derm Young Facial</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">63.000 VND</span>
+                    </li>
+                    <li class="pricing-item all waxing">
+                        <span class="logo"><i class="natuspa-icon-depilation"></i></span>
+                        <div class="heading">
+                            <h4>Natural Waxing</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">55.000 VND</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-spa-1"></i></span>
+                        <div class="heading">
+                            <h4>Express Treatments</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div>
+                        <span class="price">83.000 VND</span>
+                    </li>
+                </ul>
+                <span id="filter-option"></span>
+            </div>
+            <div class="spacer-clearfix" style="height: 60px;"></div>
+        </div>
+
+        <!-- appointment & form section -->
+        <div class="appointment-section container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                    <div class="heading col-12">
+                        <div class="pre-heading">Đặt Lịch Hẹn</div>
+                        <div class="main-heading">premium<br>Collection</div>
+                        <div class="sub-heading">Giảm giá lên tới 50%</div>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 60px;"></div>
+                    <div class="appointment-form col-12">
+                        <form action="/action_page.php">
+                            <div class="row">
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-name">
+                                    <input type="text" name="name" id="name" placeholder="Họ Tên">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-email">
+                                    <input type="text" name="email" id="email" placeholder="E-mail">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-phone-number">
+                                    <input type="text" name="phone-number" id="phone-number" placeholder="Số Điện Thoại">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 preferred-date">
+                                    <input type="text" name="preferred-date" id="datepicker"
+                                        placeholder="Ngày Đặt Lịch" autocomplete="off">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-service">
+                                    <div class="current-option" data-value="0">Type Of Services</div>
+                                    <div class="error">( <span>*</span> )</div>
+                                    <span class="dropdown-icon"><i class="fal fa-chevron-down down"></i></span>
+                                    <ul class="option-menu">
+                                        <li class="option" data-value="0">Loại Dịch Vụ</li>
+                                        <li class="option" data-value="1">Natural Waxing</li>
+                                        <li class="option" data-value="1">Signature Massage</li>
+                                        <li class="option" data-value="1">Natural Nails Care</li>
+                                        <li class="option" data-value="1">Body Treatments</li>
+                                        <li class="option" data-value="1">Derm Young Facial</li>
+                                    </ul>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 submit-btn">
+                                    <input value="Đặt Lịch Ngay" id="appointment-submit" name="Đăng Ký"
+                                        class="btn book-now-btn" disabled="disabled" style="opacity: 1;">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- collection section -->
+        <div class="collection">
+            <a href="./imgs/collection/gallery-1.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-1.jpg" alt="Gallery-1" class="collect-img" id="gallery-1">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a href="./imgs/collection/gallery-2.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-2.jpg" alt="Gallery-2" class="collect-img" id="gallery-2">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a href="./imgs/collection/gallery-3.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-3.jpg" alt="Gallery-3" class="collect-img" id="gallery-3">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a href="./imgs/collection/gallery-4.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-4.jpg" alt="Gallery-4" class="collect-img" id="gallery-4">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+        </div>
+
+        <!-- day spa packages -->
+        <div class="spa-packages container-fluid">
+            <div class="spacer-clearfix" style="height: 70px;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="heading col-12">
+                        <h2 class="main-heading section-title">Gói Day Spa</h2>
+                        <div class="sub-heading">
+                            <p>Gói ngày đang có những ưu đãi rất đặc biệt cho những ai trải nghiệm lần đầu. Ngại gì mà không thử ngay thôi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="package-box col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">GÓI BASIC<br><span class="price">369.000 VND</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item"><del>Spa Manicure & Pedicure</del></li>
+                            <li class="feature-item"><del>Complimentary lunch</del></li>
+                        </ul>
+                        <a class="link-text text-linear-effect purchase-btn">purchase</a>
+                    </div>
+                    <div class="package-box center col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">GÓI COUPLE'S<br><span class="price">595.000 VND</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item">Complimentary lunch</li>
+                            <li class="feature-item"><del>Spa Manicure & Pedicure</del></li>
+                            <li class="feature-item">Epsom Salt float therapy</li>
+                        </ul>
+                        <a class="link-text text-linear-effect purchase-btn">purchase</a>
+                    </div>
+                    <div class="package-box col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">GÓI Special<br><span class="price">769.000 VND</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item">Spa Manicure & Pedicure</li>
+                            <li class="feature-item">Complimentary lunch</li>
+                        </ul>
+                        <a class="link-text text-linear-effect purchase-btn">purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+        </div>
+
+        <!-- video box and counter section -->
+        <div class="videobox-counter-wrapper container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 p-0">
+                    <div class="counter-section">
+                        <div class="heading">
+                            <div class="pre-heading">Tạo sao nên chọn chúng tôi?</div>
+                            <div class="main-heading">trải nghiệm<br>khác biệt</div>
+                        </div>
+                        <div class="counter">
+                            <p class="sub-heading">Với cơ sở vật chất tiên tiến hiện đại Natuspa đang là một trong những spa dẫn đầu trong việc áp dụng kỹ thuật tiên tiến vào trị liệu.
+                            </p>
+                            <p class="sub-heading">Đội ngũ nhân viên nhiệt tình giàu kinh nghiệm đươc đào tạo khắt khe đảm bảo sẽ mang đến cho bạn cảm giác khác biệt.
+                            </p>
+                            <p class="sub-heading">Các chuyên gia du học từ Pháp với chuyên ngành da liệu cùng với các công trình nghiên cứu khoa học đồ sộ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 p-0">
+                    <div class="counter-section">
+                        <div class="counter">
+                            <div class="counter-item">
+                                <div class="number"><span class="price" id="number-1"></span></div>
+                                <div class="description">
+                                    <h3 class="title">Happy Clients</h3>
+                                    <p class="sub-heading">Sự hài lòng của khác hàng là niềm hạnh phúc của chúng tôi.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="counter-item">
+                                <div class="number"><span class="price" id="number-2"></span></div>
+                                <div class="description">
+                                    <h3 class="title">Loyal Customers</h3>
+                                    <p class="sub-heading">Đăng ký khách hàng thân thiết để trải nghiệm những ưu đãi bất ngờ từ Natuspa nhé!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="counter-item">
+                                <div class="number"><span class="price" id="number-3"></span></div>
+                                <div class="description">
+                                    <h3 class="title">Purchase Package</h3>
+                                    <p class="sub-heading">Nhanh tay liên hệ với chúng tôi đễ không bỏ lỡ những gì tốt đẹp đang chờ đón bạn.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- team section -->
+        <div class="team container">
+            <div class="spacer-clearfix" style="height: 0px;"></div>
+            <div class="heading">
+                <h2 class="section-title">Our Happy Team</h2>
+                <div class="sub-heading">
+                    <p> Natuspa là một thẩm mỹ viện đầy đủ dịch vụ với các chuyên gia về dịch vụ cơ thể, chăm sóc móng tay, mát-xa, tẩy lông, chăm sóc da và các phương pháp trị liệu khác.
+                    </p>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 65px;"></div>
+            <div class="team-slider">
+                <div class="team-item">
+                    <img src="./imgs/team/person-1-370x450.jpg" alt="Person-1">
+                    <div class="infomation">
+                        <h4 class="name">Emille Jenifer</h4>
+                        <div class="position">Massagist</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://fb.com/tuannguyentn2504" class="social-popup-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-item">
+                    <img src="./imgs/team/person-2-370x450.jpg" alt="Person-2">
+                    <div class="infomation">
+                        <h4 class="name">Marsha Hoffman</h4>
+                        <div class="position">makeup expert--></div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://fb.com/tuannguyentn2504" class="social-popup-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-item">
+                    <img src="./imgs/team/person-3-370x450.jpg" alt="Person-3">
+                    <div class="infomation">
+                        <h4 class="name">Emille Jenifer</h4>
+                        <div class="position">Massagist</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://fb.com/tuannguyentn2504" class="social-popup-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div>
+    </div>
+
+        <!-- latest blog -->
+        <div class="latest-blog">
+            <div class="spacer-clearfix" style="height: 0px;"></div>
+            <div class="container-fluid pr-0">
+                <div class="row">
+                    <div class="heading col-md-12">
+                        <div class="section-title">Bài Đăng Mới Nhất</div>
+                        <div class="sub-heading">
+                            <p>Chào mừng đến với Natuspa Day Med Spa! Trung tâm spa sang trọng chăm sóc sức khỏe chuyên dụng để tạo cảm hứng cho Cuộc sống Cân bằng.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 62px;"></div>
+                    <div class="col-md-12 pr-0">
+                        <div class="post-slider">
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>29 <br> DEC</span>
+                                </span>
+                                <div class="post-category">massage</div>
+                                <a href="#" class="post-title">Bạn Bạn Có Sợ Hãi Khi massage?</a>
+                                <div class="post-content">
+                                    <p>Mát xa phổ biến ở phụ nữ hơn nam giới. Ý tưởng đi mát-xa gợi lên hình ảnh về sự cưng chiều và chiều chuộng. 
+					Chúng mang lại rất nhiều lợi ích cho cơ thể...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">Đọc thêm</a>
+                            </div>
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>26 <br> DEC</span>
+                                </span>
+                                <div class="post-category">waxing</div>
+                                <a href="#" class="post-title">Món quà hoàn hảo cho Ngày của Mẹ</a>
+                                <div class="post-content">
+                                    <p>Mát xa phổ biến ở phụ nữ hơn nam giới. Ý tưởng đi mát-xa gợi lên hình ảnh về sự cưng chiều và chiều chuộng. 
+					Chúng mang lại rất nhiều lợi ích cho cơ thể...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">Đọc thêm</a>
+                            </div>
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>28 <br> DEC</span>
+                                </span>
+                                <div class="post-category">facial</div>
+                                <a href="#" class="post-title">Bạn Có Sợ Hãi Khi Massage?</a>
+                                <div class="post-content">
+                                    <p>Mát xa phổ biến ở phụ nữ hơn nam giới. Ý tưởng đi mát-xa gợi lên hình ảnh về sự cưng chiều và chiều chuộng. 
+					Chúng mang lại rất nhiều lợi ích cho cơ thể...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">Đọc thêm</a>
+                            </div>
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>27 <br> DEC</span>
+                                </span>
+                                <div class="post-category">massage</div>
+                                <a href="#" class="post-title">Giảm bớt căng thẳng cho ngày vui của bạn</a>
+                                <div class="post-content">
+                                    <p>Mát xa phổ biến ở phụ nữ hơn nam giới. Ý tưởng đi mát-xa gợi lên hình ảnh về sự cưng chiều và chiều chuộng. 
+					Chúng mang lại rất nhiều lợi ích cho cơ thể...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">Đọc thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div>
+
+        <!-- maps section -->
+        <div class="maps container-fluid">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="row">
+                <div class="maps-embed col-md-12 col-lg-6 p-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.877579598303!2d106.69218831488004!3d20.83664938610276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a9c2ee478df%3A0x6039ffe1614ede5c!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBIw6BuZyBo4bqjaSBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1637501302312!5m2!1svi!2s" 
+                        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="maps-contact col-md-12 col-lg-6">
+                    <div class="spacer-clearfix" style="height: 80px;"></div>
+                    <div class="inner">
+                        <div class="row">
+                            <div class="contact col-lg-12 col-xl-6">
+                                <div class="contact-popup-info">
+                                    <h2 class="section-title">Văn Phòng Lạch Tray</h2>
+                                    <div class="address">
+                                        <span>145 Lạch Tray, Hải Phòng</span>
+                                    </div>
+                                    <div class="email">
+                                        <span>Natuspa@email-themes.com</span>
+                                    </div>
+                                    <div class="phone">
+                                        <span>+84 933 1235 113</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact col-lg-12 col-xl-6">
+                                <div class="contact-popup-info">
+                                    <h2 class="section-title">Văn Phòng Kiến An</h2>
+                                    <div class="address">
+                                        <span>138 Phan Đăng Lưu, Hải Phòng</span>
+                                    </div>
+                                    <div class="email">
+                                        <span>Natuspa@email-themes.com</span>
+                                    </div>
+                                    <div class="phone">
+                                        <span>+ 88 686 364 730</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <form action="#" class="maps-form col-sm-12">
+                                <div class="row">
+                                    <div class="form-input col-sm-6 your-name">
+                                        <input type="text" name="name" id="name" placeholder="Họ Tên">
+                                        <div class="error">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="form-input col-sm-6 your-email">
+                                        <input type="text" name="email" id="email" placeholder="E-mail">
+                                        <div class="error">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="form-input col-sm-6 your-phone-number">
+                                        <input type="text" name="phone-number" id="phone-number"
+                                            placeholder="SDT">
+                                        <div class="error">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="form-input col-sm-6 your-service">
+                                        <div class="current-option" data-value="0">Type Of Services</div>
+                                        <div class="error">( <span>*</span> )</div>
+                                        <span class="dropdown-icon"><i class="fal fa-chevron-down down"></i></span>
+                                        <ul class="option-menu">
+                                            <li class="option" data-value="0">Loại Dịch Vụ</li>
+                                            <li class="option" data-value="1">Natural Waxing</li>
+                                            <li class="option" data-value="1">Signature Massage</li>
+                                            <li class="option" data-value="1">Natural Nails Care</li>
+                                            <li class="option" data-value="1">Body Treatments</li>
+                                            <li class="option" data-value="1">Derm Young Facial</li>
+                                        </ul>
+                                    </div>
+                                    <textarea name="your-message" id="yourMessage"
+                                        placeholder="Để lại tin nhắn"></textarea>
+                                    <div class="form-input col-12 submit-btn">
+                                        <input value="Liên lạc với chúng tôi" id="appointment-submit" name="submit"
+                                            class="btn book-now-btn" disabled="disabled" style="opacity: 1;">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <a href="index.html"><img src="./imgs/footer-logo-white.png" alt="footer-logo"></a>
+            <div class="sub-heading">Design by @CBR-Themes</div>
+            <div class="slogan">Pro inimicus sapientem an, ad cibo velit.</div>
+            <ul class="footer-social">
+                <li class="social-media" style="background-color: #4b64a6;">
+                    <a class="social-popup-icon" target="_blank" href="https://www.facebook.com/Natuspa-Beauty-Salon-Spa-101018015754908/?ref=pages_you_manage">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-media" style="background-color: #0cace4;">
+                    <a class="social-popup-icon" target="_blank" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-media" style="background-color: #f12756;">
+                    <a class="social-popup-icon" target="_blank" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">Copyright © 2021. ThienChicken. All Rights Reserved.</div>
+    </footer>
+
+    <!-- modal dialog box popup -->
+    <div class="modal-dialog-box" style="display: none;">
+        <div class="inner">
+            <div class="dialog-img"><img src="./imgs/popup-img.jpg" alt="Dialog Img" style="height: 410px;"></div>
+            <span class="close-icon"><i class="fal fa-times"></i></span>
+            <div class="content">
+                <h5 class="pre-heading">Nhận thêm ưu đãi của chúng tôi</h5>
+                <h3 class="heading">Ưu đãi độc quyền</h3>
+                <p class="sub-heading">Được giảm giá thêm tới 60% cho ưu đãi đầu tiên bạn sử dụng dịch vụ của chúng tôi.
+		Hãy nhập mã WELCOME lúc thanh toán để được giảm giá thêm 20% tại địa phương và các chuyến đi xa, hoặc giảm giá thêm 10% cho hàng hóa.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Để lại E-mail">
+                    <button class="btn book-now-btn">Đăng Ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./vendor/js/jquery-v3.4.1.min.js"></script>
+    <script src="./vendor/js/bootstrap.min.js"></script>
+    <script src="./vendor/js/jquery.waypoints.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/7534282567.js" crossorigin="anonymous"></script> -->
+    <script src="./vendor/js/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="./vendor/js/datetimepicker-master/build/jquery.datetimepicker.full.js"></script>
+    <script src="./vendor/js/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+
+    <script src="./resource/js/script.js"></script>
+    <script src="./resource/js/home-two.js"></script>
+</body>
+
+</html>

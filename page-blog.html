@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Natuspa - Beauty Salon & Spa Template</title>
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/home-two.css">
+    <link rel="stylesheet" href="./resource/css/queries.css">
+    <link rel="stylesheet" href="./resource/css/animation.css">
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/fonts/fontawesome-5.0.13/css/all.css">
+    <link rel="stylesheet" href="./vendor/fonts/natuspa-font/css/natuspa-icons.css">
+    <link rel="stylesheet" href="./vendor/js/slick/slick.css">
+    <link rel="stylesheet" href="./vendor/js/slick/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <link rel="stylesheet" href="./vendor/js/datetimepicker-master/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="./vendor/js/Magnific-Popup-master/magnific-popup.css">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/resource/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resource/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resource/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resource/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resource/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resource/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resource/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="preload">
+
+    <!-- Loading ......... -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="./imgs/loader-2.svg" alt="Loader" class="loader-img">
+        </div>
+    </div>
+
+    <!-- overlay for focus -->
+    <div id="overlay" style="display: none;"></div>
+
+    <!-- scroll top -->
+    <a class="scroll-top link-text" href="#home">Top</a>
+
+    <!-- page wrapper -->
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header id="home" class="other-pages">
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <!-- logo site -->
+                <a class="navbar-brand main-logo" href="index.html" rel="home" title="Natuspa">
+                    <img src="./imgs/logo_white.png" alt="Natuspa Logo" width="193" height="76">
+                </a>
+                <!--  main nav -->
+                <button class="navbar-toggler mobile-nav-icon" type="button" data-toggle="collapse"
+                    data-target="#main-nav-mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse main-nav">
+                    <ul class="navbar-nav menu" id="mainNav">
+                        <li class="nav-item menu-item menu-item-has-child">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="page-pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="contact-us.html">Contact</a>
+                        </li>
+                        <li class="nav-item menu-item menu-item-has-child">
+                            <a class="nav-link" href="#">News</a>
+                            <ul class="sub-menu">
+                                <li><a href="page-blog.html">News National</a></li>
+                                <li><a href="page-blog-details.html">Blog Natuspa</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav icon -->
+                <div class="main-nav-icon">
+                    <!-- search -->
+                    <a class="search-button">
+                        <span class="search-icon nav-icon"><i class="fal fa-search"></i></span>
+                    </a>
+                    <div class="search-form">
+                        <span class="close-search"><i class="fal fa-times-circle"></i></span>
+                        <form class="search-input" action="#">
+                            <input type="text" name="search" id="searchForm" placeholder="Type and hit enter..."
+                                autocomplete="off">
+                        </form>
+                    </div>
+                    
+                    <!-- bars icon -->
+                    <a class="slide-icon">
+                        <span class="bars-icon nav-icon"><i class="fal fa-bars"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <!---header menu --->
+            <div class="slide-wrap">
+                <div class="slide-inner">                   
+                        <img src="./imgs/header_menu.jpg" alt="slide one">    
+                </div>
+            </div>
+        </header>
+
+        <!-- latest blog -->
+        <div class="latest-blog">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="container-fluid pr-0">
+                <div class="row">
+                    <div class="heading col-md-12">
+                        <div class="section-title">Bài đăng mới nhất</div>
+                        <div class="sub-heading">
+                            <p>Chào mừng đến với Natuspa Day Med Spa! Một spa về chắm sóc sắc đẹp 
+                            hàng đầu sẽ truyền cảm hứng cho cuộc sống của bạn.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 62px;"></div>
+                    <div class="main-post col-md-12">
+                        <div class="container">
+                            <div class="post-slider row">
+                                <div class="post-box col-md-12 col-lg-6 pt-0 pb-0">
+                                    <div class="inner">
+                                        <div class="post-img"><img src="./imgs/news/news-3-570x340.jpg" alt=""></div>
+                                        <div class="post-wrapper">
+                                            <div class="post-category">feb 17, 2021</div>
+                                            <a href="#" class="post-title">Cách nhận biết mỹ phẩm<br>có chứa CORTICOID</a>
+                                            <div class="post-content">
+                                                <p>Trên thị trường hiện có rất nhiều loại kem có chứa Corticoid mà hầu hết mọi người đều không biết hoặc có biết nhưng vẫn cố dùng vì tác dụng của nó mang lại. Kem trộn thường có hiệu quả rất nhanh, rõ ràng chỉ 1 thời gian ngắn sau khi dùng kem da đã ....
+                                                </p>
+                                            </div>
+                                            <a class="post-read-more link-text text-linear-effect">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-box col-md-12 col-lg-6 pt-0 pb-0">
+                                    <div class="inner">
+                                        <div class="post-img"><img src="./imgs/news/news-4-570x340.jpg" alt=""></div>
+                                        <div class="post-wrapper">
+                                            <div class="post-category">feb 16, 2021</div>
+                                            <a href="#" class="post-title">Những câu hỏi thường gặp<br>sau khi làm vi kim tảo biển
+                                        </a>
+                                            <div class="post-content">
+                                                <p>Đây là cách làm đẹp phổ biến nhất, được nhiều chị em áp dụng trong trị mụn, trị nám và làm trẻ hóa da… phương pháp này được thực hiện tại các cơ sở spa và thẩm mỹ da liễu. Cơ chế hoạt động bằng các đầu kim sinh học “tảo biển” dạng Nano, siêu nhỏ, bằng cách masagel ....
+                                                </p>
+                                            </div>
+                                            <a class="post-read-more link-text text-linear-effect">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-box col-md-12 col-lg-6 pt-0 pb-0">
+                                    <div class="inner">
+                                        <div class="post-img"><img src="./imgs/news/news-1-570x340.jpg" alt=""></div>
+                                        <div class="post-wrapper">
+                                            <div class="post-category">feb 17, 2021</div>
+                                            <a href="#" class="post-title">Tế bào gốc Hàm Quốc<br>trị mụn bọc, mụn viêm bất ngờ</a>
+                                            <div class="post-content">
+                                                <p>Tế bào gốc là sản phẩm làm đẹp, nuôi dưỡng và phục hồi da hàng đầu hiện nay, giúp mang lại làn da đẹp cho hầu hết những chị em phụ nữ sử dụng. Tế bào gốc không chỉ khiến cho làn da trở nên khỏe mạnh và chống lại sự lão hoá của da mà nó còn giúp trị nám....
+                                                </p>
+                                            </div>
+                                            <a class="post-read-more link-text text-linear-effect">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-box col-md-12 col-lg-6 pt-0 pb-0">
+                                    <div class="inner">
+                                        <div class="post-img"><img src="./imgs/news/news-2-570x340.jpg" alt=""></div>
+                                        <div class="post-wrapper">
+                                            <div class="post-category">feb 16, 2021</div>
+                                            <a href="#" class="post-title">Cách sử dụng lem ủ trắng<br>da toàn thân hiệu quả</a>
+                                            <div class="post-content">
+                                                <p>Kem ủ trắng da toàn thân đang nhận được sự quan tâm từ phía đông đảo chị em phụ nữ. Vậy kem ủ trắng có thực sự tốt hay không? Nó có đem lại hiệu quả cao như mong đợi của nàng? Sử dụng kem như thế nào để đạt hiệu quả tốt nhất? Tất cả sẽ đều được....
+                                                </p>
+                                            </div>
+                                            <a class="post-read-more link-text text-linear-effect">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <a href="index.html"><img src="./imgs/footer-logo-white.png" alt="footer-logo"></a>
+            <div class="sub-heading">Design by @CBR-Themes</div>
+            <div class="slogan">Pro inimicus sapientem an, ad cibo velit.</div>
+            <ul class="footer-social">
+                <li class="social-media" style="background-color: #4b64a6;">
+                    <a class="social-popup-icon" target="_blank" href="https://www.facebook.com/Natuspa-Beauty-Salon-Spa-101018015754908/?ref=pages_you_manage">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-media" style="background-color: #0cace4;">
+                    <a class="social-popup-icon" target="_blank" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-media" style="background-color: #f12756;">
+                    <a class="social-popup-icon" target="_blank" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">Copyright © 2021. Natuspa. All Rights Reserved.</div>
+    </footer>
+
+    <script src="./vendor/js/jquery-v3.4.1.min.js"></script>
+    <script src="./vendor/js/bootstrap.min.js"></script>
+    <script src="./vendor/js/jquery.waypoints.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/7534282567.js" crossorigin="anonymous"></script> -->
+    <script src="./vendor/js/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="./vendor/js/datetimepicker-master/build/jquery.datetimepicker.full.js"></script>
+    <script src="./vendor/js/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+    <script src="./resource/js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            // ================= Way point - nav sticky and scroll-top ================
+            $('.latest-blog').waypoint(function (dicrection) {
+                if (dicrection === 'down') {
+                    $('nav').addClass('nav-sticky');
+                    $('.scroll-top').css({
+                        'visibility': 'visible',
+                        'opacity': '1'
+                    });
+                } else {
+                    $('nav').removeClass('nav-sticky');
+                    $('.scroll-top').css({
+                        'visibility': 'hidden',
+                        'opacity': '0'
+                    });
+                }
+            }, {
+                offset: '0px'
+            });
+        });
+    </script>
+</body>
+
+</html>
